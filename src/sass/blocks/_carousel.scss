@@ -1,44 +1,82 @@
 .carousel {
     padding: 81px 0;
+   
     &__inner {
         position: relative;
         width: 750px;
         margin: 0 auto;
         img {
+            margin: 0 auto;
             display: block;
             width: 100%
-        }       
+        }
+        //#tns1 {
+        //width: 80%;
+        //margin-right: 0;
+        //}       
     }
-    .slick-prev,.slick-next {
+    
+    .prev, .next {
         position: absolute;
+        z-index: 1;
         top: 50%;
         transform: translateY(-50%);
-        left: -66px;
+        left: 0px;
         border: none;
         background-color: #fff;
-        
+        width: 0px;
+        height: 0px;
     } 
-    .slick-next {
-        right: -66px;
+    .next {
         left: auto;
+        right: 0px;
     }
-    .slick-dots {
+    //.tns-item {
+    //    img {
+    //        display: block;
+    //        margin: 0 auto;
+    //        width: 80%;
+    //    }
+    //}
+    .tns-nav {
         list-style-type: none;
         display: flex;
         justify-content: center;
+        button {
+            background-color: #fff;
+            border: 2px solid $main-color;
+            margin: 5px;
+            border-radius: 100%;
+            font-size: 0px;
+            width: 10px;
+            height: 10px;
+            padding: 10px;
+            
+        }
+        .tns-nav-active {
+            background-color:$main-color;
+        }
+    }
 
-    }
-    .slick-dots button {
-        border: 2px solid $main-color;
-        margin: 5px;
-        border-radius: 100%;
-        font-size: 0px;
-        width: 10px;
-        height: 10px;
-        padding: 10px;
-    }
-    .slick-dots li[class="slick-active"] button {
-        background-color: $main-color;
-    }
+
+    //.slick-dots {
+    //    list-style-type: none;
+    //    display: flex;
+    //    justify-content: center;
+
+   // }
+    //.slick-dots button {
+    //    border: 2px solid $main-color;
+     //   margin: 5px;
+    //    border-radius: 100%;
+    //    font-size: 0px;
+    //    width: 10px;
+    //    height: 10px;
+    //    padding: 10px;
+   // }
+   // .slick-dots li[class="slick-active"] button {
+   //     background-color: $main-color;
+    //}
+
     
 }

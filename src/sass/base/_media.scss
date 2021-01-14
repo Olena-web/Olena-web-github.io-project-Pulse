@@ -10,6 +10,17 @@
             font-size: 20px;
         }
     }
+    //.carousel {
+
+    //.tns-nav,.tns-nav-active {
+    //    button {
+    //    width: 0;
+    //    height: 0;
+    
+   // }
+      
+    //}
+ //}
 }
 
 @media (max-width: 991px) {
@@ -50,8 +61,13 @@
         }
     }
     }
-    
+    .carousel {
+        .next, .prev {
+            display: none; 
+            }
+            
     }
+ }
     
 
 
@@ -110,8 +126,9 @@
         &__inner {
             width: 550px;
         }
-    }
+        
 
+}
 }
 
 @media (max-width: 575px) {
@@ -161,9 +178,6 @@
         &__inner {
             width: 450px;
         }
+        
     }
 }
-    
-
-      
-
