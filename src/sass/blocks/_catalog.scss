@@ -42,6 +42,10 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        display: none;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 300px;
