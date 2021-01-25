@@ -10,6 +10,7 @@
             font-size: 20px;
         }
     }
+    
     //.carousel {
 
     //.tns-nav,.tns-nav-active {
@@ -67,6 +68,17 @@
             }
             
     }
+    .catalog {
+        &-item {
+            width: 250px;
+            &__img {
+                height: 190px;
+            }
+            &__price {
+                font-size: 15px;
+        }
+    }
+        
  }
     
 
@@ -128,7 +140,20 @@
         }
         
 
-}
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 45px;
+        }
+        .title {
+            font-size: 27px;
+        }
+        &__tab {
+            width: 155px;
+            font-size: 16px;
+        }
+        
+    }
 }
 
 @media (max-width: 575px) {
@@ -180,4 +205,11 @@
         }
         
     }
+    .catalog {
+        &__tab {
+            width: 145px;
+            font-size: 13px;
+        }
+    }
+}
 }
