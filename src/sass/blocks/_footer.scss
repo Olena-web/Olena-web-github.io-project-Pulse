@@ -42,12 +42,8 @@
         width: 50px;
         height: 50px;
         margin: 0 15px;
-        cursor: pointer;
-        transition: 0,5s all;
-        &:hover {
-            box-shadow: 3px 3px 20px #ffffff;
-            border: none;
-        }
+        @include shade;
+        
         img {
             height: 27px;
         }

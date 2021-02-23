@@ -8,7 +8,8 @@
         img {
             margin: 0 auto;
             display: block;
-            width: 100%;
+            width: auto;
+           
            
         }
         //#tns1 {
@@ -32,13 +33,10 @@
         left: auto;
         right: 0px;
     }
-    //.tns-item {
-    //    img {
-    //        display: block;
-    //        margin: 0 auto;
-    //        width: 80%;
-    //    }
-    //}
+    
+            
+       
+    }
     .tns-nav {
         list-style-type: none;
         display: flex;
@@ -80,4 +78,3 @@
     //}
 
     
-}
