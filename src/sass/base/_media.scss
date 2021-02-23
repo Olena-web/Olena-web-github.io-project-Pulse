@@ -65,10 +65,14 @@
     .carousel {
         .next, .prev {
             display: none; 
-            }
+        }
+        &__inner img {
+            width: 91%;
+        }
             
     }
     .catalog {
+        padding-bottom: 90px;
         &-item {
             width: 250px;
             &__img {
@@ -79,9 +83,11 @@
         }
     }
         
- }
-    
-
+    }
+    .reviews {
+        padding-bottom: 120px;
+    }
+}
 
 @media (max-width: 767px) {
     .container {
@@ -152,10 +158,18 @@
             width: 155px;
             font-size: 16px;
         }
-       
-        
-        
     }
+    .reviews {
+            padding-bottom: 80px;
+        }
+    .footer__info {
+            width: 370px;
+            height: 250px;
+            padding: 37px 63px 47px 60px;;
+        }
+        
+        
+    
 }
 
 @media (max-width: 575px) {
@@ -169,7 +183,7 @@
         }
     }
     .promo {
-        background-position: -187px 0px;
+        background-position: -187px 12px;
         background-size: auto auto;
         &__header {
             font-size: 18px;
@@ -195,12 +209,14 @@
             margin-top: 50px;
             font-size: 12px;
         }
+        
+        }
     .title {
         &__left {
             font-size: 18px;
         }
     }
-    } 
+    
     .carousel {
         &__inner {
             width: 450px;
@@ -208,7 +224,10 @@
         
     }
     .catalog {
-        
+        padding-bottom: 75px;
+        .title {
+            font-size: 25px;
+        }
         &__tab {
             width: 145px;
             font-size: 13px;
@@ -225,10 +244,25 @@
         }
     
     }
-    .reviews__icon {
+    .reviews{
+    &__icon {
         width: 150px;
         height: 150px;
         margin-right: 30px;
     }
-}
-}
+    &__item {
+        margin-top: 40px;
+    }
+    }
+    .feed-form {
+        width: 250px;
+     }
+    .button__submit{
+        font-size:  14px;
+    }
+    h2.title {
+        font-size: 25px;
+    }
+}   
+
+

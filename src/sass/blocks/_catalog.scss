@@ -28,15 +28,18 @@
             box-shadow: 3px 3px 20px $main-color;
             border: none;
         }
-        div {
-            transform: skew(25deg); 
+        &__div {
+        transform: skew(25deg);
         }
         &_active {
-            color: #ffffff;
-            background-color: $main-color;
-            border: none;
+            
+                color: #fff;
+                background-color: $main-color;
+                border: none;
         }
+      
     }
+       
     &__content {
         margin-top: 60px;
         display: flex;
@@ -172,7 +175,8 @@
                 color: $main-color;
             }
         }
-
     }
-    
 }
+
+    
+    
