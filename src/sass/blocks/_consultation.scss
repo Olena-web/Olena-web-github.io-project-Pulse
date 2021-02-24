@@ -9,5 +9,15 @@
         font-weight: 500;
         color: #ffffff;
     }
+    .error {
+        border: 2px solid red;
+        text-align: center;
+    }
+    label.error {
+        color: blanchedalmond;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
     
 }
