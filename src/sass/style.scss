@@ -1,6 +1,6 @@
-@import 'base/variables';
+@import "base/variables";
 
-*{
+* {
   font-family: Museo Sans Cyrl, sans-serif;
 }
 .container {
@@ -8,27 +8,20 @@
   max-width: 950px;
   margin: 0 auto;
 }
-@import 'base/mixins';
-@import 'blocks/promo';
-@import 'blocks/header';
-@import 'blocks/buttons';
-@import 'blocks/advantages';
-@import 'blocks/consultation';
-@import 'blocks/title';
-@import 'blocks/forms';
-@import 'blocks/carousel';
-@import 'blocks/catalog';
-@import 'blocks/reviews';
-@import 'blocks/footer';
-@import 'blocks/modal';
+@import "base/mixins";
+@import "base/animations";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/consultation";
+@import "blocks/title";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
 
-@import 'base/media';
-
-
-
-
-
-
-     
-        
-        
+@import "base/media";
