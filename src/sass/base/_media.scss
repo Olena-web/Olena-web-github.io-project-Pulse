@@ -261,10 +261,21 @@
     font-size: 25px;
   }
 }
-@media (max-width: 460px) {
+@media screen and (max-width: 460px) {
   .container {
     max-width: 350px;
   }
+  .header {
+    flex-direction: column;
+    align-items: flex-end;
+    &__phone {
+      font-size: 15px;
+    }
+    &__official span {
+      font-size: 14px;
+    }
+  }
+
   .carousel {
     padding-bottom: 50px;
     &__inner {
@@ -304,6 +315,7 @@
     background-position: -187px 0px;
   }
   .reviews {
+    padding-bottom: 60px;
     &__icon {
       width: 130px;
       height: 130px;
@@ -313,11 +325,14 @@
       font-size: 14px;
     }
   }
-  .reviews {
-    padding-bottom: 60px;
+  .modal {
+    width: 300px;
+  }
+  .feed-form {
+    width: 245px;
   }
 }
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
   .container {
     max-width: 260px;
   }
@@ -332,12 +347,7 @@
   .feed-form {
     width: 220px;
   }
-  .modal {
-    width: 280px;
-    &__close {
-      right: -22px;
-    }
-  }
+
   .button__main {
     width: 270px;
   }
@@ -355,5 +365,8 @@
     width: 100px;
     height: 100px;
     margin-right: 21px;
+  }
+  .modal {
+    width: 280px;
   }
 }
