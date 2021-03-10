@@ -266,18 +266,39 @@
     max-width: 350px;
   }
   .carousel {
+    padding-bottom: 50px;
     &__inner {
       width: 380px;
     }
+  }
+  .tns-nav {
+    margin-top: 20px;
   }
   .catalog {
     &__tab {
       width: 100px;
       font-size: 11px;
     }
+    h2.title {
+      font-size: 21px;
+    }
   }
-  .footer__info {
-    width: 83%;
+  .footer {
+    &__info {
+      width: 83%;
+      padding: 30px 40px 48px 48px;
+      height: 240px;
+    }
+    &__social-item {
+      height: 24px;
+      width: 24px;
+      img {
+        height: 14px;
+      }
+    }
+    &__phone {
+      font-size: 17px;
+    }
   }
   .promo {
     background-position: -187px 0px;
@@ -294,5 +315,45 @@
   }
   .reviews {
     padding-bottom: 60px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    max-width: 260px;
+  }
+  .carousel {
+    &__inner {
+      width: 240px;
+    }
+  }
+  .promo {
+    padding-bottom: 0px;
+  }
+  .feed-form {
+    width: 220px;
+  }
+  .modal {
+    width: 280px;
+    &__close {
+      right: -22px;
+    }
+  }
+  .button__main {
+    width: 270px;
+  }
+  .catalog__tabs {
+    display: block;
+    margin-top: 15px;
+    li {
+      margin-top: 15px;
+      width: 150px;
+      height: 30px;
+      line-height: 2;
+    }
+  }
+  .reviews__icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 21px;
   }
 }
