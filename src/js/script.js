@@ -155,7 +155,7 @@ $(document).ready(function () {
   new WOW().init();
 });
 
-const modal = document.querySelector(".modal");
+const modal = document.querySelector(".overlay,#consultation, #thanks, #order");
 
 window.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
