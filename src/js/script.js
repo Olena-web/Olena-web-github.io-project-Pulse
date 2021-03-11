@@ -154,3 +154,11 @@ $(document).ready(function () {
 
   new WOW().init();
 });
+
+const modal = document.querySelector(".modal");
+
+window.addEventListener("keydown", function (event) {
+  if (event.key === "Escape") {
+    modal.style.display = "none";
+  }
+});
